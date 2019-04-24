@@ -71,11 +71,11 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
+	display: flex;
 	padding: 20px 0;
 }
 
 header nav {
-	display: inline-block;
 	width: 600px;
 	padding-top: 5px;	
 }
@@ -86,64 +86,65 @@ header nav a {
     font-size: 15px;
 }
 
-header img {
-    border-left: 65px;
+.partone {
+	display: flex;
+	flex-direction: column;
 }
 
-.secone {
-	display: inline-block;
-	text-align: center;
-	vertical-align: top;
-	width: 445px;
-	padding: 30px;
-    margin-left: 50px;
-}
 
 h1 {
 	font-family: 'Sacramento', cursive;
 	font-size: 2.625rem;
     line-height: 1;
-    color: black;
+	color: black;
+	font-weight: 900;
     width: 30%;
     height: 1%;
-    margin-left: 125px;
+    margin: 25px 0 25px 0;
+}
+
+.partone p {
+	margin-bottom: 20px;
+}
+
+.lineone {
+    border: 1px solid black;
 }
 
 
-.top-image {
-    width: 200px;
-    height: 200px;
-    margin-left: 85px;
+
+.linetwo {
+	border: 3px solid black;
 }
 
-.line {
-    border: 2px solid black;
+.secone {
+	display: flex;
 }
 
-.middle-img {
-    box-sizing: border-box;
-    display: block;
-    margin-left: 15%;
-    width: 70%;
-    height: 9%;
+.sectwo {
+	display: flex;
 }
 
-section.sectwo, section.secthree {
-	padding: 40px 0;
+.secthree {
+	display: flex;
 }
 
-section.sectwo article {
-	display: inline-block;
-	width: 45%;
-}
-
-section.secthree article {
-	display: inline-block;
-	width: 32%;
+article.one {
+	background-color: #f6f6f6;
+	border: 1px solid black;
 }
 
 footer {
 	padding: 35px 0 25px 0;
+}
+
+.secfour {
+	display: flex;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: column;
 }
 
 .copyright {
