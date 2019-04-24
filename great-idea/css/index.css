@@ -101,12 +101,10 @@ header nav a {
 
 h1 {
 	font-family: 'Sacramento', cursive;
-	font-size: 2.625rem;
+	font-size: 3.625rem;
     line-height: 1;
 	color: black;
 	font-weight: 900;
-    width: 30%;
-    height: 1%;
     margin: 25px 0 25px 0;
 }
 
@@ -152,9 +150,6 @@ article.one {
 	width: 100px;
 	padding: 10px 10px 10px 10px;
 	border: 1px solid black;
-
-	
-
 }
 
 .sec1to3 h4 {
@@ -178,13 +173,17 @@ footer {
 footer ul {
 	width: 150;
 	height: 20px;
-	margin-left: 60px;
+	margin-left: 20px;
+	font-weight: 900;
 }
 
 footer article {
 	margin: 15px 15px 15px 15px;
 }
 
+p {
+	font-weight: 900;
+}
 
 .copyright {
 	margin-top: 25px;
