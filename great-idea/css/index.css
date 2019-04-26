@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+    margin: auto;
+    width: 850px;
+}
+
+header {
+	display: flex;
+	padding: 20px 0;
+}
+
+header nav {
+	display: flex;
+	padding-top: 10px;	
+}
+
+header nav a { 
+	margin-right: 47px;
+    text-decoration: none;
+	font-size: 17px;
+	font-weight: 900;
+	color: grey;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+.partone {
+	display: flex;
+	flex-direction: column;
+}
+
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 3.625rem;
+    line-height: 1;
+	color: black;
+	font-weight: 900;
+    margin: 25px 0 25px 0;
+}
+
+.partone p {
+	margin-bottom: 20px;
+}
+
+.lineone {
+    border: 1px solid black;
+}
+
+
+
+.linetwo {
+	border: 3px solid black;
+}
+
+.secone {
+	display: flex;
+}
+
+.sectwo {
+	display: flex;
+}
+
+.secthree {
+	display: flex;
+}
+
+article.one {
+	background-color: #f6f6f6;
+	border: 1px solid black;
+	padding-bottom: 30px;
+	margin: 20px 20px 20px 20px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	margin: 30px 0 10px 10px;
+	width: 100px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	border-radius: 7px; 
+}
+
+.sec1to3 h4 {
+	margin: 20px 0 20px 20px;
+
+}
+
+.sec1to3 p {
+	margin: 10px 10px 10px 10px;
+
+}
+
+footer {
+	padding: 35px 0 25px 0;
+}
+
+.secfour {
+	display: flex;
+}
+
+footer ul {
+	width: 150;
+	height: 20px;
+	margin-left: 20px;
+	font-weight: 900;
+}
+
+footer article {
+	margin: 15px 45px 15px 15px;
+}
+
+p {
+	font-weight: 900;
+}
+
+.copyright {
+	margin: 80px 0 25px 0;
+	text-align: center;
+}
